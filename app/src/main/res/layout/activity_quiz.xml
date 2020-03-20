@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#85D7E1"
+    android:orientation="vertical" >
+
+    <!-- Question 1 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Study of the Universe is known as ?"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <RadioGroup
+        android:id="@+id/num_one_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/cos_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cosmology"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/Sociology_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sociology"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/Universology_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universology"
+            android:textSize="16sp" />
+
+        <RadioButton
+
+            android:id="@+id/Petology_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Petology"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <!-- Question 2 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Which of the following is not a constitutional body ?"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/num_two_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Election Commission"
+            android:textSize="16sp" />
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Planning Commision"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/nationaladvisor_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:text="National Advisory Council"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inter State Council"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <!-- Question 3 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Sea water contains pH value in the range of"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:hint="Please enter your answer"
+        android:inputType="text"/>
+
+    <!-- Question 4 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Any two Asian country?"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/japan_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Japan"
+        android:textSize="16sp" />
+
+    <CheckBox
+
+        android:id="@+id/india_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="India"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/s_checkbox"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Srilanka"
+        android:textSize="16sp" />
+
+    <CheckBox
+android:id="@+id/a_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16sp"
+        android:text="America"
+        android:textSize="16sp" />
+
+    <!-- Question 5 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Which of the following is the largest Open University in the world ?"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+
+
+    <RadioGroup
+        android:id="@+id/num_three_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/ghandhis_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indira Gandhi National Open University"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anadolu University"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bangladesh Open University d"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ramkhamhaeng University"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <!-- Question 6 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. “Kathmandu” is the capital city of which country?"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+
+    <RadioGroup
+        android:id="@+id/num_four_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/nepal_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nepal"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="india"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="japan"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="korea"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <!-- Question 7 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7. Wimbledon trophy is given to which sport ?"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+
+
+    <RadioGroup
+        android:id="@+id/num_five_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hockey"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Badminton"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Table Tennis"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/tannis_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tennis"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <!-- Question 8 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.Rabindranath Tagore receive Nobel Prize in 1913 in the field of ?"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+
+
+    <RadioGroup
+        android:id="@+id/num_six_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/literature_radio"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="literature"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="economy"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="physics"
+            android:textSize="16sp" />
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="non of these"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9. Potato Festival celebrated in which country?"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/num_seven_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/sweeden_radio"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sweeden"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="japan"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nepal"
+            android:textSize="16sp" />
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="non of these"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10. Where is National Milk day observed ??"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/num_eight_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/nov_radi0"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nov26"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="de 1"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="july20"
+            android:textSize="16sp" />
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="non of these"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit" />
+
+
+
+</LinearLayout>
+
+</ScrollView>
